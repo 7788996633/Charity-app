@@ -158,6 +158,10 @@ class UserItem extends StatelessWidget {
                       value: 'delete',
                       child: Text("Delete"),
                     ),
+                    const PopupMenuItem(
+                      value: 'volunteer',
+                      child: Text("Volunteer"),
+                    ),
                   ];
                 } else if (userModel.role == 'volunteer') {
                   return [

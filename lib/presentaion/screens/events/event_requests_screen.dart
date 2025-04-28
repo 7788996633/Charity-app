@@ -225,7 +225,7 @@ class _EventRequestsScreenState extends State<EventRequestsScreen> {
                 child: Text(
                   "Beneficiaries",
                   style: TextStyle(
-                      fontSize: vol ? 25 : 30,
+                      fontSize: vol ? 20 : 25,
                       color: vol
                           ? Colors.white
                           : const Color.fromARGB(255, 24, 22, 110)),
@@ -245,7 +245,7 @@ class _EventRequestsScreenState extends State<EventRequestsScreen> {
                 child: Text(
                   "Volunteers",
                   style: TextStyle(
-                      fontSize: vol ? 30 : 25,
+                      fontSize: vol ? 25 : 20,
                       color: vol
                           ? const Color.fromARGB(255, 24, 22, 110)
                           : Colors.white),

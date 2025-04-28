@@ -4,7 +4,7 @@ import 'package:baader/constants.dart';
 import 'package:http/http.dart' as http;
 
 class Api {
-  String myUrl = 'http://192.168.1.106:8000/';
+  String myUrl = 'http://192.168.138.86:8000/';
   Future<dynamic> gett(
     String url,
   ) async {

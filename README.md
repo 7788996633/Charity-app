@@ -1,16 +1,32 @@
-# baader
+# Charity Management Application
 
-A new Flutter project.
+This is a Flutter application developed as a fourth-year graduation project.  
+It focuses on managing a charity platform with multiple user roles and a clean scalable architecture.
 
-## Getting Started
+## 📱 About the Project
 
-This project is a starting point for a Flutter application.
+This is a charity management app built with Flutter, implementing Clean Code and Cubit for state management.  
+The app supports multiple user roles, including:
 
-A few resources to get you started if this is your first Flutter project:
+- **Admin**: Managing users, donations, and system settings.
+- **Beneficiary**: Requesting aid and tracking donations.
+- **Volunteer**: Participating in charity activities and supporting operations.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Each role has a customized UI experience (different screens, colors, navigation menus).
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠️ Key Features
+
+- Clean and scalable project structure.
+- State management using **Cubit**.
+- Responsive UI design for mobile devices.
+- Role-based UI and navigation.
+- Integration-ready design for backend and database systems.
+- Organized routing and modular architecture.
+
+---
+
+## 📸 Screenshots
+
+You can find full screenshots of the app inside the `screenshots/` folder.
